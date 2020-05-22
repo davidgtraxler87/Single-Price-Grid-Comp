@@ -1,0 +1,69 @@
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+}
+
+#single-price-grid-container {
+  display: grid;
+  margin: 75px 23px;
+  width: 330px;
+  border-radius: 8px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas:
+    "join"
+    "subscribe"
+    "why-us";
+}
+
+@media (max-width: 360px) {
+  body {
+    width: 325px;
+  }
+
+  #single-price-grid-container {
+    margin: 75px 12px;
+  }
+}
+
+.join {
+  padding: 1.75rem;
+}
+
+.join h1 {
+  font-size: 1.25rem;
+}
+
+.join h3 {
+  font-size: 1rem;
+}
+
+.join p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.join p br {
+  display: none;
+}
+
+.subscribe {
+  padding: 1.75rem;
+  border-bottom-left-radius: 0px;
+}
+
+.subscribe .btn-primary {
+  margin-top: 1rem;
+  padding: 1rem 6.9rem;
+}
+
+.why-us {
+  padding: 1.75rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.why-us p {
+  font-size: 0.9rem;
+}

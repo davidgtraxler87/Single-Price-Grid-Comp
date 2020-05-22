@@ -21,7 +21,7 @@ body {
 
 #single-price-grid-container {
   display: grid;
-  margin: 190px 555px;
+  margin: 170px 555px;
   width: 640px;
   border-radius: 8px;
   grid-template-columns: repeat(2, 1fr);

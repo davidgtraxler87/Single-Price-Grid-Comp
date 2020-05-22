@@ -17,7 +17,7 @@
     "why-us";
 }
 
-@media (max-width: 360px) {
+/* @media (max-width: 360px) {
   body {
     width: 325px;
   }
@@ -25,7 +25,7 @@
   #single-price-grid-container {
     margin: 75px 12px;
   }
-}
+} */
 
 .join {
   padding: 1.75rem;
